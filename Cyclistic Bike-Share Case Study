@@ -1,0 +1,77 @@
+# 🚲 Cyclistic Bike-Share Case Study
+
+### 📌 Project Title: *How Does a Bike-Share Navigate Speedy Success?*
+
+This project explores how casual riders and annual members use Cyclistic’s bike-share service differently. As a junior data analyst on the marketing team, my goal was to uncover actionable insights that support a strategy to convert more casual riders into loyal annual members.
+
+---
+
+## 🎯 Business Task
+
+The director of marketing at Cyclistic wants to increase the number of annual memberships. This project addresses the question:
+> **How do annual members and casual riders use Cyclistic bikes differently?**
+
+---
+
+## 📊 Dataset Used
+
+- **Source**: [Divvy Bike Share - Chicago](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- **Type**: Public bike trip data (.csv)
+- **Time Range**: Most recent 12 months
+- **Data Points**: Trip ID, start/end times, station names, user type, bike type, etc.
+- **Data Privacy**: No personal identifiers included
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Spreadsheet (Excel/Google Sheets)** – Data cleaning and transformation  
+- **SQL / R / Python (optional)** – Data aggregation and exploration  
+- **Power BI / Tableau / Google Slides** – Visualizations  
+- **GitHub** – Version control and project showcase
+
+---
+
+## 🧹 Data Cleaning Process
+
+- Removed NULL values and duplicates  
+- Created calculated fields:
+  - `ride_length` = `ended_at` - `started_at`
+  - `day_of_week` = weekday from `started_at`
+- Ensured consistent column names across files
+- Merged monthly .csv files into one master dataset
+
+---
+
+## 📈 Key Insights
+
+- Casual riders are more active on weekends, while annual members ride more during weekdays.
+- Average ride duration for casual riders is significantly longer than members.
+- Casual users prefer leisurely midday trips, members use bikes during commute hours.
+
+---
+
+## 📊 Visualizations
+
+- 📅 **Ride volume by day of week** (pivot table)
+- ⏰ **Average ride duration by user type**
+- 📍 **Popular station usage comparisons**
+- 📊 *Screenshots or embedded dashboards can go here*
+
+---
+
+## ✅ Recommendations
+
+1. **Launch weekend membership discounts** to attract casual riders who ride most on Saturdays and Sundays.
+2. **Target commute-based promotions** to casual users who live in downtown areas.
+3. **Use email/social campaigns** to highlight savings and convenience of annual plans.
+
+---
+
+## 📬 Contact
+
+**Created by:** Aakash Nirwan  
+**LinkedIn:** [Your Profile Link]  
+**Email:** [Your Email]
+
+---
